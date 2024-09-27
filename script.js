@@ -16,3 +16,9 @@ function addTask() {
   removeButton.onclick = function () {
     taskList.removeChild(li);
   };
+  li.onclick = function () {
+    li.classList.toggle("completed");
+  };
+
+  // Append the remove button to the list item
+  li.appendChild(removeButton);
