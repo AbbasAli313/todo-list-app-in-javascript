@@ -1,4 +1,3 @@
-
 function addTask() {
   var taskInput = document.getElementById("taskInput");
   var taskList = document.getElementById("taskList");
@@ -22,3 +21,9 @@ function addTask() {
 
   // Append the remove button to the list item
   li.appendChild(removeButton);
+  // Append the list item to the task list
+  taskList.appendChild(li);
+
+  // Clear the input field
+  taskInput.value = "";
+}
