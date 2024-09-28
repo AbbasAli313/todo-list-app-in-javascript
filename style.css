@@ -1,6 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
   font-family: "Arial", sans-serif;
-  background-color: #f4f4f9;
+  background: linear-gradient(135deg, lightblue, darkblue, white);
   display: flex;
   justify-content: center;
   align-items: center;
